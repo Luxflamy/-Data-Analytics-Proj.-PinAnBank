@@ -67,10 +67,16 @@ df.drop(columns=['list_price','cost_price','discount_percent'],inplace=True)
 # In[169]:
 
 
-#load the data into sql server using replace option
-import sqlalchemy as sal
-engine = sal.create_engine('mssql://SUHITH39\\SQLEXPRESS/mydatabase?driver=ODBC+DRIVER+17+FOR+SQL+SERVER')
-conn=engine.connect()
+from sqlalchemy import create_engine
+
+engine = create_engine("mysql+pymysql://root:@localhost:3306/mydb")
+conn = engine.connect()
+print("Connected successfully!")
+
+# #load the data into sql server using replace option
+# import sqlalchemy as sal
+# engine = sal.create_engine('mssql://SUHITH39\\SQLEXPRESS/mydatabase?driver=ODBC+DRIVER+17+FOR+SQL+SERVER')
+# conn=engine.connect()
 
 
 # In[172]:
