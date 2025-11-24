@@ -1,4 +1,4 @@
-# 📄 零售订单数据管道 — Kaggle → Pandas → MySQL → 可视化
+# 零售订单数据管道 — Kaggle → Pandas → MySQL → 可视化
 
 🌐 Languages: [English](README_EN.md) | 🇨🇳 中文版本
 

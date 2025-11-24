@@ -1,5 +1,5 @@
 
-# 📄 Retail Orders Data Pipeline — Kaggle → Pandas → MySQL → Visualization
+# Retail Orders Data Pipeline — Kaggle → Pandas → MySQL → Visualization
 
 🌐 Languages: 🇨🇳 [中文版本](README_CN.md) | English
 
