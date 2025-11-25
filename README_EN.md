@@ -61,3 +61,19 @@ run Order Data Analysis.ipynb
 
 🎉 Done!
 If you need an extended version (Plotly dashboard, full EDA notebook, automated pipeline), feel free to ask!
+
+
+### Data Head（Customer）
+
+| Field          | Description and Purpose                                                                                                |
+| :------------- | :--------------------------------------------------------------------------------------------------------------------- |
+| customer_id   | **Unique identifier** for each customer. Used as the primary key to link customer data across all banking systems.     |
+| name          | **Legal name** of the customer (individual or business). Essential for identity verification and official documentation. |
+| id_type       | **Type of identification document** provided (e.g., National ID, Passport, Business License).                          |
+| id_number     | **Number of the official identification document**. Used for KYC (Know Your Customer) and anti-fraud processes.        |
+| mobile        | **Primary contact number**. Used for notifications, two-factor authentication, and customer service.                   |
+| address       | **Registered mailing address**. Used for statement delivery, legal correspondence, and address verification.           |
+| open_date     | **The date the customer's account was officially opened**. Important for calculating customer longevity and loyalty.   |
+| customer_type | **Classification of the customer** as an 'Individual' or 'Corporate' entity. Determines the products and services available to them. |
+| risk_score    | **A numerical rating representing the customer's risk profile**. Calculated based on transactions, behavior, and other factors for compliance and credit decisions. |
+
