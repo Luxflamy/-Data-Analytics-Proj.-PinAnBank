@@ -63,9 +63,7 @@ run Order Data Analysis.ipynb
 If you need an extended version (Plotly dashboard, full EDA notebook, automated pipeline), feel free to ask!
 
 
-## Data Head（Customer）
-
-
+### Data Head（Customer）
 
 | Field          | Description and Purpose                                                                                                |
 | :------------- | :--------------------------------------------------------------------------------------------------------------------- |
