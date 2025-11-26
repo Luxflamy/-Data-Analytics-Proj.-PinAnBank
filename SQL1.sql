@@ -1,8 +1,6 @@
 -- 1. 使用数据库
 USE mydb;
 
-
-
 -- 2. 查看表结构
 DESCRIBE pingan_bank_customers;
 
